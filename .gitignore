@@ -15,6 +15,9 @@ android/.gradle
 android/app/*.keystore
 *.iml
 
+# Flutter build output
+build/
+
 # VS Code settings
 .vscode/
 
