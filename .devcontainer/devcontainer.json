@@ -1,0 +1,11 @@
+{
+  "name": "Flutter Voice IoT",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "extensions": [
+    "dart-code.flutter",
+    "dart-code.dart-code"
+  ],
+  "postCreateCommand": "flutter doctor"
+}
