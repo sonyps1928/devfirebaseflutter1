@@ -1,3 +1,23 @@
+# Dart & Flutter
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+build/
+*.lock
+
+# Flutter specific
+ios/Flutter/.symlinks
+ios/Pods
+ios/.generated
+android/.gradle
+android/app/*.keystore
+*.iml
+
+# VS Code settings
+.vscode/
+
 # Firebase build and deployment files
 /firebase-debug.log
 /firebase-debug.*.log
@@ -25,4 +45,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment files (local configs)
+/.env.*
+t files (local configs)
 /.env.*
