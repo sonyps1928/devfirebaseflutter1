@@ -1,4 +1,4 @@
-# Dart & Flutter
+# 📦 Dart & Flutter
 .dart_tool/
 .packages
 .flutter-plugins
@@ -7,7 +7,7 @@
 build/
 *.lock
 
-# Flutter specific
+# 🚀 Flutter specific
 ios/Flutter/.symlinks
 ios/Pods
 ios/.generated
@@ -15,39 +15,57 @@ android/.gradle
 android/app/*.keystore
 *.iml
 
-# Flutter build output
+# 🧪 Flutter build output
 build/
 
-# VS Code settings
+# 🧭 VS Code settings
 .vscode/
 
-# Firebase build and deployment files
-/firebase-debug.log
-/firebase-debug.*.log
+# 🔥 Firebase CLI & Hosting
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
 .firebaserc
-
-# Firebase Hosting
-/firebase.json
+firebase.json
 *.cache
 hosting/.cache
 
-# Firebase Functions
+# ☁️ Firebase Functions
 /functions/node_modules/
 /functions/.env
 /functions/package-lock.json
 
-# Firebase Emulators
+# 🎮 Firebase Emulators
 /firebase-*.zip
 /.firebase/
 /emulator-ui/
 
-# Logs
+# 🛠️ Git & GitHub CLI
+*.orig
+*.swp
+*.swo
+*~
+*.rej
+*.bak
+*.tmp
+gh-config.json
+.github/config.yml
+~/.config/gh/
+
+# 💻 Editor-specific
+.idea/
+
+# 📓 Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment files (local configs)
+# 🔐 Environment files (local configs)
 /.env.*
-t files (local configs)
-/.env.*
+
+# 🧹 OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
